@@ -74,6 +74,7 @@ public class Player
 		//local variables - none
 
 		/********************   Start main method  *****************/
+		//Call dealOne method to add a card to the hand
 		hand.add(DeckOfCards.dealOne());
 	}//end
 
@@ -146,5 +147,3 @@ public class Player
 	}//end toString
 
 } //end Player
-
-
